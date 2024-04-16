@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Mian_Service_Eligibility">
+  <name>Mian_Service_Eligibility</name>
+  <uuid>75fe2811-c3ef-4585-896c-c63fb3bd89dd</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#9a624aac-ecc7-4002-9859-5a789f2001ef"/>
+  <targetRuleProject href="../../Mian_Service_Eligibility#22ceab2c-467d-44fc-9e77-3924441a44b2"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
