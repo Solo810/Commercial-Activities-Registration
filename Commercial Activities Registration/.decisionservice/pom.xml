@@ -18,7 +18,12 @@
         </dependency>
         <dependency>
             <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>mian_Service_Eligibility</artifactId>
+            <artifactId>invest_License_Renewal</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+            <artifactId>main_Service_Eligibility</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -77,6 +82,11 @@
 
 
 
+
+
+
+
+
 <build>
         <resources>
             <resource>
@@ -112,7 +122,16 @@
                                 </artifactItem>
                                 <artifactItem>
                                     <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-                                    <artifactId>mian_Service_Eligibility</artifactId>
+                                    <artifactId>invest_License_Renewal</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
+                                    <type>jar</type>
+                                    <overWrite>false</overWrite>
+                                    <includes>**/*.class</includes>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+                                    <artifactId>main_Service_Eligibility</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>

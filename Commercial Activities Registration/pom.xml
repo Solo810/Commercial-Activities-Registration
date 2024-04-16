@@ -65,7 +65,8 @@
     <modules>
         <module>Decision_result</module>
         <module>.decisionservice</module>
-        <module>Mian_Service_Eligibility</module>
+        <module>Main_Service_Eligibility</module>
+        <module>Invest_License_Renewal</module>
     </modules>
 
     <build>
