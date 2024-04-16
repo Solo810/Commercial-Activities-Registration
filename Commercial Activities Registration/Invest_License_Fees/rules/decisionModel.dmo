@@ -17,7 +17,7 @@
     </inputData>
     <decision id="node_1" name="Get Final Cost">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="sharePercentage"/>
                 <input bomType="java.lang.Double" collection="false" name="Number of Years"/>
                 <input bomType="java.lang.Boolean" collection="false" name="professional"/>

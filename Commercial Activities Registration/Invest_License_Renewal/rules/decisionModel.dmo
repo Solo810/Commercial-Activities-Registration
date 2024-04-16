@@ -17,7 +17,7 @@
     </inputData>
     <decision id="node_1" name="Get License Renewal">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Boolean" collection="false" name="Has HQ in KSA"/>
                 <input bomType="java.lang.String" collection="false" name="classification"/>
                 <input bomType="java.lang.Boolean" collection="false" name="entrepreneur"/>
@@ -28,6 +28,8 @@
                 <rule defaultRule="false" href="node_1/Main%20Service%20Eligibility.drl" kind="BusinessRule" name="Main Service Eligibility"/>
                 <rule defaultRule="false" href="node_1/Get_Renewal_License_Entrepreneur.dmt" kind="DecisionTable" name="Get_Renewal_License_Entrepreneur"/>
                 <rule defaultRule="false" href="node_1/Get_CompanyHQ_Renewal_Cost.drl" kind="BusinessRule" name="Get_CompanyHQ_Renewal_Cost"/>
+                <rule defaultRule="false" href="node_1/Get_CompanyHQ_Renewal_Cost_G_P.drl" kind="BusinessRule" name="Get_CompanyHQ_Renewal_Cost_G_P"/>
+                <rule defaultRule="false" href="node_1/Renewal%20Year%20is%20more%20than%201.drl" kind="BusinessRule" name="Renewal Year is more than 1"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Get License Renewal" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>

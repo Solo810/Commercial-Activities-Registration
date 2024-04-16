@@ -17,11 +17,13 @@
     </inputData>
     <decision id="node_1" name="Amount_VAT">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
                 <input bomType="java.lang.Double" collection="false" name="ISIC_Number"/>
                 <input bomType="java.lang.Double" collection="false" name="Number of Rooms"/>
+                <input bomType="java.lang.Double" collection="false" name="Number of Years"/>
                 <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT" collection="false" name="Amount_VAT"/>
-                <rule defaultRule="false" href="node_1/Amount_VAT.dmt" kind="DecisionTable" name="Amount_VAT"/>
+                <rule defaultRule="false" href="node_1/Validate%20Number%20of%20Years.drl" kind="BusinessRule" name="Validate Number of Years"/>
+                <rule defaultRule="false" href="node_1/Amount_and_VAT.dmt" kind="DecisionTable" name="Amount_and_VAT"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Amount_VAT" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT"/>
@@ -31,6 +33,9 @@
         <informationRequirement>
             <requiredInput href="#node_2"/>
         </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
     </decision>
     <inputData id="node_2" name="Number of Rooms">
         <extensionElements>
@@ -39,6 +44,14 @@
             </initialization>
         </extensionElements>
         <variable id="node_2_ii" name="Number of Rooms" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_3" name="Number of Years">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="Number of Years"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="Number of Years" typeRef="java.lang.Double"/>
     </inputData>
 </definitions>
 </definition>

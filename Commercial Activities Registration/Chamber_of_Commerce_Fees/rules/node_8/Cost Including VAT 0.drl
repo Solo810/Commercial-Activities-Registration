@@ -5,6 +5,7 @@
   <locale>en_US</locale>
   <definition><![CDATA[if
 	Years is less than 4 
+    and the amount of decision is more than -1
 then
 	set decision to a new Decision_result where
 		the amount is 0 , 

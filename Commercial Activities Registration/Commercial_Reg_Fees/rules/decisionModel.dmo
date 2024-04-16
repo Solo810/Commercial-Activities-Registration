@@ -17,7 +17,7 @@
     </inputData>
     <decision id="node_1" name="Get_Fees">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type" collection="false" name="Company_type"/>
                 <input bomType="java.lang.Double" collection="false" name="Number of Years"/>
                 <input bomType="java.lang.Boolean" collection="false" name="professional"/>
@@ -25,6 +25,7 @@
                 <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result" collection="false" name="Get_Fees"/>
                 <rule defaultRule="false" href="node_1/Get%20Eligibility.drl" kind="BusinessRule" name="Get Eligibility"/>
                 <rule defaultRule="false" href="node_1/Get%20Company%20Fees.dmt" kind="DecisionTable" name="Get Company Fees"/>
+                <rule defaultRule="false" href="node_1/Years%20is%20more%20than%20one.drl" kind="BusinessRule" name="Years is more than one"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Get_Fees" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>

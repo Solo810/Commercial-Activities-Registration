@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
-  <name>Amount_VAT</name>
-  <uuid>14e223f1-89a8-4116-8ab1-f6b079862d88</uuid>
+  <name>Amount_and_VAT</name>
+  <uuid>e57e3253-060d-4c0b-a728-8b9c56080aa2</uuid>
   <locale>en_US</locale>
   <definition><DT xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable" Version="7.0">
     <Body>
@@ -27,7 +27,8 @@
                     <ExpressionDefinition>
                         <Text><![CDATA[set decision to a new Amount_VAT where
 	the VAT is <VAT> , 
-	the amount_VAT is <amount_VAT>]]></Text>
+	the amount_VAT is <amount_VAT> , 
+	the msg is <msg>]]></Text>
                     </ExpressionDefinition>
                 </ActionDefinition>
             </ActionDefinitions>
@@ -48,12 +49,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["22500"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[22500]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551011]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -63,12 +73,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["17000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[17000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551011]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -78,12 +97,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["10000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[10000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551011]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -93,8 +121,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -115,12 +144,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["22500"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[22500]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551044]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -130,12 +168,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["17000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[17000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551044]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -145,12 +192,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["10000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[10000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551044]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -160,8 +216,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -182,12 +239,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["22500"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[22500]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551013]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -197,12 +263,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["17000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[17000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551013]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -212,12 +287,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["10000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[10000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551013]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -227,8 +311,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -249,12 +334,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["22500"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[22500]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551023]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -264,12 +358,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["17000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[17000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551023]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -279,12 +382,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["10000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[10000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551023]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -294,8 +406,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -316,12 +429,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["22500"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[22500]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551014]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -331,12 +453,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["17000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[17000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551014]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -346,12 +477,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["10000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[10000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551014]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -361,8 +501,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -383,12 +524,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["22500"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[22500]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551015]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -398,12 +548,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["17000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[17000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551015]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -413,12 +572,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["10000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[10000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551015]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -428,8 +596,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -450,12 +619,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["5000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[5000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551022]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -465,12 +643,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["4000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[4000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551022]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -480,8 +667,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["2900"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[2900]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -502,12 +690,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["4000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[4000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551025]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -517,12 +714,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["3000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[3000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551025]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -532,8 +738,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["2000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[2000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -554,12 +761,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["4000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[4000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551041]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -569,12 +785,21 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["3000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[3000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
                         </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
+                        <Param><![CDATA[551041]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
                         <Condition>
                             <Expression>
                                 <Text><![CDATA[<a number> is between <min> and <max>]]></Text>
@@ -584,8 +809,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["2000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[2000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -594,6 +820,7 @@
                 </Condition>
                 <Condition>
                     <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
                         <Param><![CDATA[552001]]></Param>
                     </Expression>
                     <Partition DefId="C1">
@@ -605,8 +832,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["8000"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[8000]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -615,6 +843,7 @@
                 </Condition>
                 <Condition>
                     <Expression>
+                        <Text><![CDATA[<a number> equals <a number>]]></Text>
                         <Param><![CDATA[551043]]></Param>
                     </Expression>
                     <Partition DefId="C1">
@@ -626,8 +855,9 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["0"]]></Param>
-                                        <Param><![CDATA["0"]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA[0]]></Param>
+                                        <Param><![CDATA["a"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -641,6 +871,7 @@
         <ResourceSet Locale="en_US">
             <Data Name="Definitions(C0)#HeaderText"><![CDATA[ISIC_Number]]></Data>
             <Data Name="Definitions(C1)#HeaderText"><![CDATA[Number of Rooms]]></Data>
+            <Data Name="Definitions(A0)#Width"><![CDATA[410]]></Data>
             <Data Name="Definitions(C0)[0]#HeaderText"><![CDATA[min]]></Data>
             <Data Name="Definitions(A0)#HeaderText"><![CDATA[Amount_VAT]]></Data>
         </ResourceSet>

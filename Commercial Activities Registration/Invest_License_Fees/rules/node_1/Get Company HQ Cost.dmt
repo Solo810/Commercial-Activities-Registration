@@ -9,6 +9,9 @@
             <Property Name="UI.MediaType"><![CDATA[Web]]></Property>
             <Property Name="UI.RenderBoolean" Type="xs:boolean"><![CDATA[true]]></Property>
         </Properties>
+        <Preconditions>
+            <Text><![CDATA[if 'HQ in KSA' is true ]]></Text>
+        </Preconditions>
         <Structure>
             <ConditionDefinitions>
                 <ConditionDefinition Id="C0">

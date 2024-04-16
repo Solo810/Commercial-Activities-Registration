@@ -23,6 +23,9 @@
             <Property Name="Lock.LockPreconditions" Type="xs:boolean"><![CDATA[false]]></Property>
             <Property Name="Lock.RemoveCond" Type="xs:boolean"><![CDATA[false]]></Property>
         </Properties>
+        <Preconditions>
+            <Text><![CDATA[if the amount of decision is more than -1]]></Text>
+        </Preconditions>
         <Structure>
             <ConditionDefinitions>
                 <ConditionDefinition Id="C0">
