@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>License Fees</name>
-  <uuid>dd73f410-98d2-4463-ab4d-b46dc40bc8d3</uuid>
-</ilog.rules.studio.model.base:RulePackage>
