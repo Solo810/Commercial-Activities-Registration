@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>New ruleflow</name>
+  <uuid>2b87e8bb-328a-414b-9c7a-3dbca10530e9</uuid>
+  <locale>en_US</locale>
+  <rfModel><Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+    <Body>
+        <TaskList>
+            <StartTask Identifier="task_0"/>
+            <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_1" Ordering="Default">
+                <RuleList>
+                    <Rule Uuid="fcefbd50-df1c-4949-935a-6f538e3312fd"/>
+                    <Rule Uuid="850a87a6-39cb-46bd-9492-5cd9255ba0b7"/>
+                </RuleList>
+            </RuleTask>
+            <StopTask Identifier="task_2"/>
+            <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_3" Ordering="Default">
+                <RuleList>
+                    <Rule Uuid="7b79d99d-67d3-470c-ad4e-f98aa037760b"/>
+                    <Rule Uuid="2559ece9-559c-460a-a31f-4974ffa8b5f2"/>
+                </RuleList>
+            </RuleTask>
+        </TaskList>
+        <NodeList>
+            <TaskNode Identifier="node_0" Task="task_0"/>
+            <TaskNode Identifier="node_1" Task="task_1"/>
+            <TaskNode Identifier="node_2" Task="task_2"/>
+            <TaskNode Identifier="node_3" Task="task_3"/>
+            <BranchNode Identifier="node_4"/>
+        </NodeList>
+        <TransitionList>
+            <Transition Identifier="transition_0" Source="node_0" Target="node_1"/>
+            <Transition Identifier="transition_2" Source="node_3" Target="node_2"/>
+            <Transition Identifier="transition_4" Source="node_4" Target="node_3"/>
+            <Transition Identifier="transition_5" Source="node_1" Target="node_4"/>
+        </TransitionList>
+    </Body>
+    <Resources>
+        <ResourceSet Locale="en_US">
+            <Data Name="node_3#label"><![CDATA[Rule task 2]]></Data>
+            <Data Name="node_0#name"><![CDATA[Start node]]></Data>
+            <Data Name="node_4#label"><![CDATA[Branch node 1]]></Data>
+            <Data Name="node_1#name"><![CDATA[Rule task 1]]></Data>
+            <Data Name="node_2#name"><![CDATA[End node]]></Data>
+            <Data Name="node_4#name"><![CDATA[Branch node 1]]></Data>
+            <Data Name="node_1#label"><![CDATA[Rule task 1]]></Data>
+            <Data Name="node_3#name"><![CDATA[Rule task 2]]></Data>
+        </ResourceSet>
+    </Resources>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

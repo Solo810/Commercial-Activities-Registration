@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="test" usingRuleflow="true" ruleflowName="New ruleflow" targetRuleProjectName="test">
+  <name>test</name>
+  <uuid>b19eb8ef-5151-41c1-95bc-cc02a16e2eeb</uuid>
+  <ruleflow href="../rules/New%20ruleflow.rfl#2b87e8bb-328a-414b-9c7a-3dbca10530e9"/>
+  <targetRuleProject href="../../test#aa4ec60b-ed7c-42a0-a559-644321c9ce5b"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

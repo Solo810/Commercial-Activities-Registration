@@ -71,6 +71,7 @@
         <module>Main_Service_Eligibility</module>
         <module>Invest_License_Renewal</module>
         <module>Company_Grade</module>
+        <module>test</module>
         <module>Amount_VAT</module>
         <module>Commercial_Reg_Fees</module>
     </modules>
