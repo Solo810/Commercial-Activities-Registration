@@ -8,9 +8,9 @@
         <TaskList>
             <StartTask Identifier="task_0">
                 <Actions Language="bal"><![CDATA[set BaladiInput to a new Baladi Input where 
-	the Amanah is "" , 
+	the Amanah is "أمانة منطقة الرياض" , 
 	the Area is 400 , 
-	the Isic is "" ;]]></Actions>
+	the Isic is "الأنشطة الطبية" ;]]></Actions>
             </StartTask>
             <StopTask Identifier="task_2"/>
             <FunctionTask Identifier="task_4">
