@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Set Price">
+  <name>Set_Price</name>
+  <uuid>aeebf206-c36c-4ea9-8443-b5998b1b5dfa</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#c209560e-d84b-4da3-b755-0ff801826089"/>
+  <targetRuleProject href="../../Set%20Price#a0619de6-2066-4924-b9a9-5f92d6ae90fe"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
