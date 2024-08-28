@@ -20,12 +20,12 @@
 	the Isic is "الأنشطة الطبية" ;
     
     ]]></InitialActions>
-                <Invocation FunctionIdentifier="smahmoud.demo123123.demo.calculatebaladi.CalculateBaladi">
+                <Invocation FunctionIdentifier="cp4admin.sdaia.demo.setprice.Set_Price">
                     <InputBindings>
-                        <Binding Language="bal" Name="input"/>
+                        <Binding Language="bal" Name="area"/>
                     </InputBindings>
                     <OutputBindings>
-                        <Binding Language="bal" Name="IssueBaladi"/>
+                        <Binding Language="bal" Name="price"/>
                     </OutputBindings>
                 </Invocation>
             </FunctionTask>

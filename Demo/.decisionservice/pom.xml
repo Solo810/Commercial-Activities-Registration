@@ -33,6 +33,11 @@
         </dependency>
         <dependency>
             <groupId>cp4admin.sdaia.demo</groupId>
+            <artifactId>setPrice</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>cp4admin.sdaia.demo</groupId>
             <artifactId>healthflow</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
@@ -99,6 +104,8 @@
 
 
 
+
+
 <build>
         <resources>
             <resource>
@@ -153,6 +160,15 @@
                                 <artifactItem>
                                     <groupId>cp4admin.sdaia.demo</groupId>
                                     <artifactId>output</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
+                                    <type>jar</type>
+                                    <overWrite>false</overWrite>
+                                    <includes>**/*.class</includes>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>cp4admin.sdaia.demo</groupId>
+                                    <artifactId>setPrice</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>

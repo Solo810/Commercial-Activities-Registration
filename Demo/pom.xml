@@ -68,6 +68,7 @@
         <module>CR</module>
         <module>CalculateBaladi</module>
         <module>Output</module>
+        <module>Set Price</module>
         <module>healthflow</module>
     </modules>
 

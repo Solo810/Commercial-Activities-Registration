@@ -12,6 +12,7 @@
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.sdaia.demo:output#LATEST-SNAPSHOT" packageId="cp4admin.sdaia.demo:output" version="LATEST-SNAPSHOT"/>
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.sdaia.demo:CR#LATEST-SNAPSHOT" packageId="cp4admin.sdaia.demo:CR" version="LATEST-SNAPSHOT"/>
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.sdaia.demo:calculateBaladi#LATEST-SNAPSHOT" packageId="cp4admin.sdaia.demo:calculateBaladi" version="LATEST-SNAPSHOT"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="cp4admin.sdaia.demo:setPrice#LATEST-SNAPSHOT" packageId="cp4admin.sdaia.demo:setPrice" version="LATEST-SNAPSHOT"/>
   </paths>
   <modelFolders xsi:type="ilog.rules.studio.model.base:BMDFolder">
     <name>bmd</name>

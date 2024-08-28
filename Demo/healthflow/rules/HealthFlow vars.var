@@ -7,4 +7,5 @@
   <variables name="IssueBaladi" type="smahmoud.demo123123.demo.output.CostOuput" initialValue="" verbalization="IssueBaladi" jsonName=""/>
   <variables name="IssueCR" type="smahmoud.demo123123.demo.output.CostOuput" initialValue="" verbalization="IssueCR" jsonName=""/>
   <variables name="GeneralOutPut" type="java.util.List&lt;smahmoud.demo123123.demo.output.CostOuput>" initialValue="" verbalization="GeneralOutPut" jsonName=""/>
+  <variables name="price" type="double" initialValue="" verbalization="the new variable1" jsonName=""/>
 </ilog.rules.studio.model.base:VariableSet>
