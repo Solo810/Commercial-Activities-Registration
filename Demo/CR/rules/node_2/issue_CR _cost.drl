@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>issue_CR _cost</name>
+  <uuid>7aee8543-b6b0-4e91-aaf5-603002706371</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[
+	set decision to a new CostOuput where
+		the ServiceName is "Issue CR" , 
+		the Type is 1 , 
+		the year1 is a new CostPerYear where 
+	Ma3fe is false , 
+	the Cost is 'get CR Cost' , 
+		the year2 is a new CostPerYear where 
+	Ma3fe is false , 
+	the Cost is 0 , 
+		the year3 is a new CostPerYear where 
+	Ma3fe is false , 
+	the Cost is 0 , 
+		the year4 is a new CostPerYear where 
+	Ma3fe is false , 
+	the Cost is 0 , 
+		the year5 is a new CostPerYear where 
+	Ma3fe is false , 
+	the Cost is 0 ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

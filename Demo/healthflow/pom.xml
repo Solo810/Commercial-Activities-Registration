@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-        <artifactId>commercialActivitiesRegistration</artifactId>
+        <groupId>cp4admin.sdaia.demo</groupId>
+        <artifactId>demo</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-    <artifactId>chamber_Of_Commerce_Fees</artifactId>
+    <groupId>cp4admin.sdaia.demo</groupId>
+    <artifactId>healthflow</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,10 +26,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Chamber_of_Commerce_Fees</name>
+                            <name>healthflow</name>
                         </deployment>
                     </deployments>
-                <packageName>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.chamber_of_commerce_fees</packageName>
+                <packageName>smahmoud.demo123123.demo.healthflow</packageName>
                 </configuration>
             </plugin>
         </plugins>
@@ -37,23 +37,23 @@
 
 <dependencies>
         <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>decision_Result</artifactId>
+            <groupId>cp4admin.sdaia.demo</groupId>
+            <artifactId>baladiInputs</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>main_Service_Eligibility</artifactId>
+            <groupId>cp4admin.sdaia.demo</groupId>
+            <artifactId>output</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>company_Grade</artifactId>
+            <groupId>cp4admin.sdaia.demo</groupId>
+            <artifactId>CR</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>countries</artifactId>
+            <groupId>cp4admin.sdaia.demo</groupId>
+            <artifactId>calculateBaladi</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>

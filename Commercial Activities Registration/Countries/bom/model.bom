@@ -1,0 +1,36 @@
+
+package ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries;
+
+
+class Countries
+        extends java.lang.Enum
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Countries"
+        property com.ibm.rules.domainProvider.msexcel.b2xColumn "0"
+        property com.ibm.rules.domainProvider.msexcel.documentationColumn.en_US "2"
+        #com.ibm.rules.domainProvider.msexcel.hasHeader
+        property com.ibm.rules.domainProvider.msexcel.labelColumn.en_US "1"
+        property com.ibm.rules.domainProvider.msexcel.sheetIndex "0"
+        property com.ibm.rules.domainProvider.msexcel.valueColumn "0"
+        #de.generated
+        property domainProviderResource "domains/dynamicDomainTemplate.xlsx"
+{
+    domain {static UAE, static egypt, static lebanon, static newEnumValue, static saudiArabia}
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries UAE
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "UAE";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries egypt
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Egypt";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries lebanon
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "Lebanon";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries newEnumValue
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "newEnumValue"
+                #deprecated;
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries saudiArabia
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "Saudi Arabia";
+}
+

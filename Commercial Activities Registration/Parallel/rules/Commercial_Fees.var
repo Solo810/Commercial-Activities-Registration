@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" language="ARL">
+  <name>Commercial_Fees</name>
+  <uuid>3c21fb61-2467-470c-a803-6ddc3aebc012</uuid>
+  <variables name="Company_type" type="java.lang.String" initialValue="" verbalization="Company_type" jsonName=""/>
+  <variables name="NumberofYears" type="double" initialValue="" verbalization="NumberofYears" jsonName=""/>
+  <variables name="professional" type="java.lang.String" initialValue="" verbalization="professional" jsonName=""/>
+  <variables name="sharePercentage" type="double" initialValue="" verbalization="sharePercentage" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>

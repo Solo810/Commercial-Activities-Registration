@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" language="ARL">
+  <name>HealthFlow vars</name>
+  <uuid>634ccada-7ad9-4739-95fe-3b82f00ac7de</uuid>
+  <variables name="BaladiInput" type="smahmoud.demo123123.demo.baladiinputs.BaladiInput" initialValue="" verbalization="BaladiInput" jsonName=""/>
+  <variables name="legalStatus" type="java.lang.String" initialValue="" verbalization="legalStatus" jsonName=""/>
+  <variables name="IssueBaladi" type="smahmoud.demo123123.demo.output.CostOuput" initialValue="" verbalization="IssueBaladi" jsonName=""/>
+  <variables name="IssueCR" type="smahmoud.demo123123.demo.output.CostOuput" initialValue="" verbalization="IssueCR" jsonName=""/>
+  <variables name="GeneralOutPut" type="java.util.List&lt;smahmoud.demo123123.demo.output.CostOuput>" initialValue="" verbalization="GeneralOutPut" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>

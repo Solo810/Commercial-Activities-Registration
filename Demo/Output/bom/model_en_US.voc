@@ -1,0 +1,40 @@
+
+# smahmoud.demo123123.demo.output.CostOuput
+smahmoud.demo123123.demo.output.CostOuput#concept.label = CostOuput
+smahmoud.demo123123.demo.output.CostOuput.CostOuput(java.lang.String,int,smahmoud.demo123123.demo.output.CostPerYear,smahmoud.demo123123.demo.output.CostPerYear,smahmoud.demo123123.demo.output.CostPerYear,smahmoud.demo123123.demo.output.CostPerYear,smahmoud.demo123123.demo.output.CostPerYear)#phrase.navigation = a new {CostOuput} where {0, ServiceName} {1, Type} {2, year1} {3, year2} {4, year3} {5, year4} {6, year5}
+smahmoud.demo123123.demo.output.CostOuput.serviceName#phrase.action = set the ServiceName of {this} to {ServiceName}
+smahmoud.demo123123.demo.output.CostOuput.serviceName#phrase.navigation = {ServiceName} of {this}
+smahmoud.demo123123.demo.output.CostOuput.type#phrase.action = set the Type of {this} to {Type}
+smahmoud.demo123123.demo.output.CostOuput.type#phrase.addition_setter = add {Type} to the Type of {this}
+smahmoud.demo123123.demo.output.CostOuput.type#phrase.navigation = {Type} of {this}
+smahmoud.demo123123.demo.output.CostOuput.type#phrase.subtraction_setter = subtract {Type} from the Type of {this}
+smahmoud.demo123123.demo.output.CostOuput.year1#phrase.action = set the year1 of {this} to {year1}
+smahmoud.demo123123.demo.output.CostOuput.year1#phrase.clearer = clear the year1 of {this}
+smahmoud.demo123123.demo.output.CostOuput.year1#phrase.navigation = {year1} of {this}
+smahmoud.demo123123.demo.output.CostOuput.year2#phrase.action = set the year2 of {this} to {year2}
+smahmoud.demo123123.demo.output.CostOuput.year2#phrase.clearer = clear the year2 of {this}
+smahmoud.demo123123.demo.output.CostOuput.year2#phrase.navigation = {year2} of {this}
+smahmoud.demo123123.demo.output.CostOuput.year3#phrase.action = set the year3 of {this} to {year3}
+smahmoud.demo123123.demo.output.CostOuput.year3#phrase.clearer = clear the year3 of {this}
+smahmoud.demo123123.demo.output.CostOuput.year3#phrase.navigation = {year3} of {this}
+smahmoud.demo123123.demo.output.CostOuput.year4#phrase.action = set the year4 of {this} to {year4}
+smahmoud.demo123123.demo.output.CostOuput.year4#phrase.clearer = clear the year4 of {this}
+smahmoud.demo123123.demo.output.CostOuput.year4#phrase.navigation = {year4} of {this}
+smahmoud.demo123123.demo.output.CostOuput.year5#phrase.action = set the year5 of {this} to {year5}
+smahmoud.demo123123.demo.output.CostOuput.year5#phrase.clearer = clear the year5 of {this}
+smahmoud.demo123123.demo.output.CostOuput.year5#phrase.navigation = {year5} of {this}
+
+# smahmoud.demo123123.demo.output.CostPerYear
+smahmoud.demo123123.demo.output.CostPerYear#concept.label = CostPerYear
+smahmoud.demo123123.demo.output.CostPerYear.CostPerYear(double,boolean)#phrase.navigation = a new {CostPerYear} where {0, Cost} {1, Ma3fe}
+smahmoud.demo123123.demo.output.CostPerYear.cost#phrase.action = set the Cost of {this} to {Cost}
+smahmoud.demo123123.demo.output.CostPerYear.cost#phrase.addition_setter = add {Cost} to the Cost of {this}
+smahmoud.demo123123.demo.output.CostPerYear.cost#phrase.navigation = {Cost} of {this}
+smahmoud.demo123123.demo.output.CostPerYear.cost#phrase.subtraction_setter = subtract {Cost} from the Cost of {this}
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.action[0] = {this} gets Ma3fe only if {Ma3fe}
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.action[1] = make it {Ma3fe} that {this} is Ma3fe
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.action[1].deprecated = true
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.navigation = {this} is Ma3fe
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.negative_predicate = {this} is not Ma3fe
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.negative_predicate_setter = {this} does not get Ma3fe
+smahmoud.demo123123.demo.output.CostPerYear.ma3fe#phrase.positive_predicate_setter = {this} gets Ma3fe

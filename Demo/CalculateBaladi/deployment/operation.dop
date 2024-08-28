@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="CalculateBaladi">
+  <name>CalculateBaladi</name>
+  <uuid>6e795880-a167-46ca-b20c-3aca43a33ebe</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#75b71ac1-b973-4b47-94ca-5c78068d078f"/>
+  <targetRuleProject href="../../CalculateBaladi#5c35fb8c-9bb9-48ce-8334-801aeb57041f"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

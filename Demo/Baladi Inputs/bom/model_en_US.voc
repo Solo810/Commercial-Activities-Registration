@@ -1,0 +1,12 @@
+
+# smahmoud.demo123123.demo.baladiinputs.BaladiInput
+smahmoud.demo123123.demo.baladiinputs.BaladiInput#concept.label = Baladi Input
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.BaladiInput(java.lang.String,double,java.lang.String)#phrase.navigation = a new {Baladi Input} where {0, Amanah} {1, Area} {2, Isic}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.amanah#phrase.action = set the Amanah of {this} to {Amanah}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.amanah#phrase.navigation = {Amanah} of {this}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.area#phrase.action = set the Area of {this} to {Area}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.area#phrase.addition_setter = add {Area} to the Area of {this}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.area#phrase.navigation = {Area} of {this}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.area#phrase.subtraction_setter = subtract {Area} from the Area of {this}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.isic#phrase.action = set the Isic of {this} to {Isic}
+smahmoud.demo123123.demo.baladiinputs.BaladiInput.isic#phrase.navigation = {Isic} of {this}

@@ -1,0 +1,30 @@
+
+package smahmoud.demo123123.demo.baladiinputs;
+
+
+class BaladiInput
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "BaladiInput"
+        #de.generated
+{
+    string amanah
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Amanah"
+                #update;
+    double area
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Area"
+                #update;
+    string isic
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Isic"
+                #update;
+    BaladiInput(string amanah, double area, string isic)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    BaladiInput()
+                #dataio.default;
+}
+

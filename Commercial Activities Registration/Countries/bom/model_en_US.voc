@@ -1,0 +1,8 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries#concept.label = Countries
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries.UAE#instance.label = UAE
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries.egypt#instance.label = Egypt
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries.lebanon#instance.label = Lebanon
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries.newEnumValue#instance.label = new enum value
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries.saudiArabia#instance.label = Saudi Arabia

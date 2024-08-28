@@ -73,6 +73,7 @@
                 <input bomType="java.lang.Double" collection="false" name="Number of Employees"/>
                 <input bomType="java.lang.Double" collection="false" name="Capital amount"/>
                 <input bomType="java.lang.Double" collection="false" name="Years"/>
+                <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries" collection="false" name="Country"/>
                 <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result" collection="false" name="Cost Including VAT"/>
                 <rule defaultRule="false" href="node_8/Get%20Eligibility.drl" kind="BusinessRule" name="Get Eligibility"/>
                 <rule defaultRule="false" href="node_8/Cost%20Including%20VAT%200.drl" kind="BusinessRule" name="Cost Including VAT 0"/>
@@ -101,10 +102,24 @@
         <informationRequirement>
             <requiredInput href="#node_7"/>
         </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_10"/>
+        </informationRequirement>
+        <knowledgeRequirement>
+            <requiredKnowledge href="#node_11"/>
+        </knowledgeRequirement>
         <knowledgeRequirement>
             <requiredKnowledge href="#node_9"/>
         </knowledgeRequirement>
     </decision>
+    <inputData id="node_10" name="Country">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries" collection="false" name="Country"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_10_ii" name="Country" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.countries.Countries"/>
+    </inputData>
     <businessKnowledgeModel id="node_9" name="Main_Service_Eligibility">
         <extensionElements>
             <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
@@ -127,6 +142,30 @@
                     <variable name="method signature"/>
                     <literalExpression>
                         <text>"run(java.lang.Boolean,java.lang.Double,java.lang.Double)"</text>
+                    </literalExpression>
+                </contextEntry>
+            </context>
+        </encapsulatedLogic>
+    </businessKnowledgeModel>
+    <businessKnowledgeModel id="node_11" name="Prediction 11">
+        <extensionElements>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.bkKind"><![CDATA[prediction]]></property>
+            </properties>
+        </extensionElements>
+        <variable name="Prediction 11" typeRef="java.lang.String"/>
+        <encapsulatedLogic typeRef="java.lang.String">
+            <context>
+                <contextEntry>
+                    <variable name="class"/>
+                    <literalExpression>
+                        <text>""</text>
+                    </literalExpression>
+                </contextEntry>
+                <contextEntry>
+                    <variable name="method signature"/>
+                    <literalExpression>
+                        <text>""</text>
                     </literalExpression>
                 </contextEntry>
             </context>

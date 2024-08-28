@@ -1,0 +1,68 @@
+
+package smahmoud.demo123123.demo.output;
+
+
+class CostOuput
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "CostOuput"
+        #de.generated
+{
+    string serviceName
+                property ads.attributeId "7"
+                property com.fasterxml.jackson.annotation.JsonProperty "ServiceName"
+                #update;
+    int type
+                property ads.attributeId "6"
+                property com.fasterxml.jackson.annotation.JsonProperty "Type"
+                #update;
+    smahmoud.demo123123.demo.output.CostPerYear year1
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "year1"
+                #update;
+    smahmoud.demo123123.demo.output.CostPerYear year2
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "year2"
+                #update;
+    smahmoud.demo123123.demo.output.CostPerYear year3
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "year3"
+                #update;
+    smahmoud.demo123123.demo.output.CostPerYear year4
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "year4"
+                #update;
+    smahmoud.demo123123.demo.output.CostPerYear year5
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "year5"
+                #update;
+    CostOuput(string serviceName, int type, smahmoud.demo123123.demo.output.CostPerYear year1, smahmoud.demo123123.demo.output.CostPerYear year2, smahmoud.demo123123.demo.output.CostPerYear year3, smahmoud.demo123123.demo.output.CostPerYear year4, smahmoud.demo123123.demo.output.CostPerYear year5)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    CostOuput()
+                #dataio.default;
+}
+
+class CostPerYear
+        property ads.typeId "2"
+        property com.fasterxml.jackson.annotation.JsonTypeName "CostPerYear"
+        #de.generated
+{
+    double cost
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Cost"
+                #update;
+    boolean ma3fe
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Ma3fe"
+                #update;
+    CostPerYear(double cost, boolean ma3fe)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    CostPerYear()
+                #dataio.default;
+}
+

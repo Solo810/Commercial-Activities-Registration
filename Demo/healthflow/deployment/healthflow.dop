@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="healthflow" usingRuleflow="true" ruleflowName="New ruleflow" targetRuleProjectName="healthflow">
+  <name>healthflow</name>
+  <uuid>6e330460-ba1a-4cf1-b7cb-f9e35ddc5bf2</uuid>
+  <referencedVariables variableName="BaladiInput" variableSetName="HealthFlow vars">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
+  <referencedVariables variableName="legalStatus" variableSetName="HealthFlow vars">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
+  <referencedVariables variableName="IssueBaladi" variableSetName="HealthFlow vars" direction="OUT">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
+  <referencedVariables variableName="IssueCR" variableSetName="HealthFlow vars" direction="OUT">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
+  <referencedVariables variableName="GeneralOutPut" variableSetName="HealthFlow vars" direction="OUT">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
+  <ruleflow href="../rules/New%20ruleflow.rfl#26ae5184-f579-420a-93aa-54c4d6913999"/>
+  <targetRuleProject href="../../healthflow#05ea1fa9-bd49-4132-bad2-c7fe4bfb737d"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

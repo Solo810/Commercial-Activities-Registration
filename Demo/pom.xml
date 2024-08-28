@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-    <artifactId>commercialActivitiesRegistration</artifactId>
+    <groupId>cp4admin.sdaia.demo</groupId>
+    <artifactId>demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Commercial Activities Registration</name>
+    <name>Demo</name>
 
     <packaging>pom</packaging>
 
@@ -24,7 +24,6 @@
         <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <ml-integration-runtime.version>48.0.5</ml-integration-runtime.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -65,17 +64,11 @@
     </dependencyManagement>
     <modules>
         <module>.decisionservice</module>
-        <module>Amount_VAT</module>
-        <module>Chamber_of_Commerce_Fees</module>
-        <module>Commercial_Reg_Fees</module>
-        <module>Company_Grade</module>
-        <module>Countries</module>
-        <module>Decision_result</module>
-        <module>Invest_License_Fees</module>
-        <module>Invest_License_Renewal</module>
-        <module>Main_Service_Eligibility</module>
-        <module>Operation_License_Fees</module>
-        <module>Parallel</module>
+        <module>Baladi Inputs</module>
+        <module>CR</module>
+        <module>CalculateBaladi</module>
+        <module>Output</module>
+        <module>healthflow</module>
     </modules>
 
     <build>

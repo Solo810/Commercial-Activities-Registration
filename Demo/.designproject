@@ -1,0 +1,10 @@
+{
+  "description" : "",
+  "groupId" : "cp4admin.sdaia.demo",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}

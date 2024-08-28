@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Copy of New ruleflow</name>
+  <uuid>366201e5-3e4c-475c-af1c-8f0d37076afc</uuid>
+  <locale>en_US</locale>
+  <rfModel><Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+    <Body>
+        <TaskList>
+            <StartTask Identifier="task_0">
+                <Actions Language="bal"><![CDATA[set BaladiInput to a new Baladi Input where 
+	the Amanah is "" , 
+	the Area is 400 , 
+	the Isic is "" ;]]></Actions>
+            </StartTask>
+            <StopTask Identifier="task_2"/>
+            <FunctionTask Identifier="task_4">
+                <InitialActions Language="bal"><![CDATA[set BaladiInput to a new Baladi Input where 
+	the Amanah is "أمانة منطقة الرياض" , 
+	the Area is 400 , 
+	the Isic is "الأنشطة الطبية" ;
+    
+    ]]></InitialActions>
+                <Invocation FunctionIdentifier="smahmoud.demo123123.demo.calculatebaladi.CalculateBaladi">
+                    <InputBindings>
+                        <Binding Language="bal" Name="input"/>
+                    </InputBindings>
+                    <OutputBindings>
+                        <Binding Language="bal" Name="IssueBaladi"/>
+                    </OutputBindings>
+                </Invocation>
+            </FunctionTask>
+        </TaskList>
+        <NodeList>
+            <TaskNode Identifier="node_0" Task="task_0"/>
+            <TaskNode Identifier="node_2" Task="task_2"/>
+            <TaskNode Identifier="node_4" Task="task_4"/>
+        </NodeList>
+        <TransitionList>
+            <Transition Identifier="transition_2" Source="node_0" Target="node_4"/>
+            <Transition Identifier="transition_1" Source="node_4" Target="node_2"/>
+        </TransitionList>
+    </Body>
+    <Resources>
+        <ResourceSet Locale="en_US">
+            <Data Name="node_0#name"><![CDATA[Start node]]></Data>
+            <Data Name="node_4#label"><![CDATA[Issue Baladi]]></Data>
+            <Data Name="node_2#name"><![CDATA[End node]]></Data>
+            <Data Name="node_4#name"><![CDATA[Issue Baladi]]></Data>
+        </ResourceSet>
+    </Resources>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>
