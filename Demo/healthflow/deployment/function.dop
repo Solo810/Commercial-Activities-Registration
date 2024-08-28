@@ -2,6 +2,12 @@
 <com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="function" usingRuleflow="true" ruleflowName="Copy of New ruleflow" targetRuleProjectName="healthflow">
   <name>function</name>
   <uuid>3a6a93a4-35ea-4f09-96b2-4cf4afd97f85</uuid>
+  <referencedVariables variableName="price" variableSetName="HealthFlow vars" direction="OUT">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
+  <referencedVariables variableName="area" variableSetName="HealthFlow vars">
+    <variableSet href="../rules/HealthFlow%20vars.var#634ccada-7ad9-4739-95fe-3b82f00ac7de"/>
+  </referencedVariables>
   <ruleflow href="../rules/Copy%20of%20New%20ruleflow.rfl#366201e5-3e4c-475c-af1c-8f0d37076afc"/>
   <targetRuleProject href="../../healthflow#05ea1fa9-bd49-4132-bad2-c7fe4bfb737d"/>
   <tags key="operationDescription">
