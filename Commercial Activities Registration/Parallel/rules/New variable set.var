@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" language="ARL">
+  <name>New variable set</name>
+  <uuid>8871fb25-7a5c-41b0-ba9d-25d45a4971ca</uuid>
+  <variables name="Company_type" type="java.lang.String" initialValue="" verbalization="Company_type" jsonName=""/>
+  <variables name="capital" type="double" initialValue="" verbalization="capital" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>
