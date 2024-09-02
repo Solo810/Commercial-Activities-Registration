@@ -42,6 +42,21 @@
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+            <artifactId>commercial_Reg_Fees</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+            <artifactId>operation_License_Fees</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+            <artifactId>decision_Result</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>
         </dependency>

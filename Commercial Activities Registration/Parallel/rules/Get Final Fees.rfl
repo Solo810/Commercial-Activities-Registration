@@ -7,25 +7,37 @@
     <Body>
         <TaskList>
             <StartTask Identifier="task_0"/>
-            <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_1" Ordering="Default"/>
             <StopTask Identifier="task_2"/>
+            <FunctionTask Identifier="task_3">
+                <Invocation FunctionIdentifier="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees.Commercial_Reg_Fees">
+                    <InputBindings>
+                        <Binding Language="bal" Name="company_type"/>
+                        <Binding Language="bal" Name="numberOfYears"/>
+                        <Binding Language="bal" Name="professional"/>
+                        <Binding Language="bal" Name="sharePercentage"/>
+                    </InputBindings>
+                    <OutputBindings>
+                        <Binding Language="bal" Name="finalFees"/>
+                    </OutputBindings>
+                </Invocation>
+            </FunctionTask>
         </TaskList>
         <NodeList>
             <TaskNode Identifier="node_0" Task="task_0"/>
-            <TaskNode Identifier="node_1" Task="task_1"/>
             <TaskNode Identifier="node_2" Task="task_2"/>
+            <TaskNode Identifier="node_3" Task="task_3"/>
         </NodeList>
         <TransitionList>
-            <Transition Identifier="transition_0" Source="node_0" Target="node_1"/>
-            <Transition Identifier="transition_1" Source="node_1" Target="node_2"/>
+            <Transition Identifier="transition_0" Source="node_0" Target="node_3"/>
+            <Transition Identifier="transition_1" Source="node_3" Target="node_2"/>
         </TransitionList>
     </Body>
     <Resources>
         <ResourceSet Locale="en_US">
-            <Data Name="node_0#name">Start node</Data>
-            <Data Name="node_1#name">Rule task 1</Data>
-            <Data Name="node_2#name">End node</Data>
-            <Data Name="node_1#label">Rule task 1</Data>
+            <Data Name="node_3#label"><![CDATA[Commercial Reg Fees]]></Data>
+            <Data Name="node_0#name"><![CDATA[Start node]]></Data>
+            <Data Name="node_2#name"><![CDATA[End node]]></Data>
+            <Data Name="node_3#name"><![CDATA[Commercial Reg Fees]]></Data>
         </ResourceSet>
     </Resources>
 </Ruleflow>
