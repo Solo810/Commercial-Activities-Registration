@@ -9,12 +9,11 @@
             <StartTask Identifier="task_0"/>
             <StopTask Identifier="task_2"/>
             <FunctionTask Identifier="task_3">
-                <Invocation FunctionIdentifier="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees.Commercial_Reg_Fees">
+                <Invocation FunctionIdentifier="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.mian_service_eligibility.Main_Service_Eligibility">
                     <InputBindings>
-                        <Binding Language="bal" Name="company_type"/>
-                        <Binding Language="bal" Name="numberOfYears"/>
                         <Binding Language="bal" Name="professional"/>
                         <Binding Language="bal" Name="sharePercentage"/>
+                        <Binding Language="bal" Name="years"/>
                     </InputBindings>
                     <OutputBindings>
                         <Binding Language="bal" Name="finalFees"/>
@@ -34,10 +33,10 @@
     </Body>
     <Resources>
         <ResourceSet Locale="en_US">
-            <Data Name="node_3#label"><![CDATA[Commercial Reg Fees]]></Data>
+            <Data Name="node_3#label"><![CDATA[Get Eligibility]]></Data>
             <Data Name="node_0#name"><![CDATA[Start node]]></Data>
             <Data Name="node_2#name"><![CDATA[End node]]></Data>
-            <Data Name="node_3#name"><![CDATA[Commercial Reg Fees]]></Data>
+            <Data Name="node_3#name"><![CDATA[Get Eligibility]]></Data>
         </ResourceSet>
     </Resources>
 </Ruleflow>
