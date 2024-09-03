@@ -52,19 +52,6 @@
         </extensionElements>
         <variable id="node_3_ii" name="years" typeRef="java.lang.Double"/>
     </inputData>
-    <decision id="node_4" name="Decision 4">
-        <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
-                <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result" collection="false" name="Eligibility for the Service"/>
-                <output bomType="java.lang.String" collection="false" name="Decision 4"/>
-                <rule defaultRule="false" href="node_4/Get%20msg.drl" kind="BusinessRule" name="Get msg"/>
-            </ruleset>
-        </extensionElements>
-        <variable id="node_4_ii" name="Decision 4" typeRef="java.lang.String"/>
-        <informationRequirement>
-            <requiredInput href="#node_1"/>
-        </informationRequirement>
-    </decision>
 </definitions>
 </definition>
 </com.ibm.rules.studio.model.decisionmodel:DecisionModel>

@@ -1,0 +1,26 @@
+
+package cp4admin.sdaia.commercial_activities_registration.operation_license_input;
+
+
+class Operation_License_Input
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Operation_License_Input"
+        #de.generated
+{
+    double ISICnumbrer
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "ISICnumbrer"
+                #update;
+    double numberOfRooms
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "NumberOfRooms"
+                #update;
+    Operation_License_Input(double ISICnumbrer, double numberOfRooms)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Operation_License_Input()
+                #dataio.default;
+}
+

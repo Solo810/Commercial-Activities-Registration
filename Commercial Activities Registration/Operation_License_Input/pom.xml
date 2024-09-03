@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
-    <artifactId>operation_License_Fees</artifactId>
+    <artifactId>operation_License_Input</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,31 +26,16 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Operation_License_Fees</name>
+                            <name>Operation_License_Input</name>
                         </deployment>
                     </deployments>
-                <packageName>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.operation_license_fees</packageName>
+                <packageName>cp4admin.sdaia.commercial_activities_registration.operation_license_input</packageName>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
 <dependencies>
-        <dependency>
-            <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
-            <artifactId>company_Grade</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
-            <artifactId>decision_Result</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
-            <artifactId>amount_VAT</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>

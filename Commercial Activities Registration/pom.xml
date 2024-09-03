@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+    <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
     <artifactId>commercialActivitiesRegistration</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Commercial Activities Registration</name>
@@ -76,6 +76,7 @@
         <module>Invest_License_Renewal</module>
         <module>Main_Service_Eligibility</module>
         <module>Operation_License_Fees</module>
+        <module>Operation_License_Input</module>
         <module>Parallel</module>
     </modules>
 

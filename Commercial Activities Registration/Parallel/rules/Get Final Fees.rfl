@@ -11,26 +11,30 @@
             <FunctionTask Identifier="task_3">
                 <Invocation FunctionIdentifier="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.mian_service_eligibility.Main_Service_Eligibility">
                     <InputBindings>
-                        <Binding Language="bal" Name="professional"><![CDATA[true]]></Binding>
+                        <Binding Language="bal" Name="professional"><![CDATA[false]]></Binding>
                         <Binding Language="bal" Name="sharePercentage"><![CDATA[the shares of eligibility_Inputs ]]></Binding>
                         <Binding Language="bal" Name="years"><![CDATA[ the years of eligibility_Inputs ]]></Binding>
                     </InputBindings>
                     <OutputBindings>
-                        <Binding Language="bal" Name="finalFees"><![CDATA[ finalFees ]]></Binding>
+                        <Binding Language="bal" Name="finalFees"><![CDATA[ 'main service eligibility' ]]></Binding>
                     </OutputBindings>
                 </Invocation>
             </FunctionTask>
-            <RuleTask ExecutionMode="RetePlus" ExitCriteria="None" Identifier="task_4" Ordering="Default">
+            <RuleTask ExecutionMode="Sequential" ExitCriteria="None" Identifier="task_4" Ordering="Default">
                 <RuleList>
                     <Rule Uuid="34153a78-a158-43c8-bebd-c2b46b6fcdbe"/>
                 </RuleList>
             </RuleTask>
+            <FunctionTask Identifier="task_5">
+                <Invocation/>
+            </FunctionTask>
         </TaskList>
         <NodeList>
             <TaskNode Identifier="node_0" Task="task_0"/>
             <TaskNode Identifier="node_2" Task="task_2"/>
             <TaskNode Identifier="node_3" Task="task_3"/>
             <TaskNode Identifier="node_4" Task="task_4"/>
+            <TaskNode Identifier="node_5" Task="task_5"/>
         </NodeList>
         <TransitionList>
             <Transition Identifier="transition_0" Source="node_0" Target="node_3"/>
@@ -43,7 +47,9 @@
             <Data Name="node_3#label"><![CDATA[Get Eligibility]]></Data>
             <Data Name="node_0#name"><![CDATA[Start node]]></Data>
             <Data Name="node_4#label"><![CDATA[Rule task 1]]></Data>
+            <Data Name="node_5#name"><![CDATA[fees with VAT]]></Data>
             <Data Name="node_2#name"><![CDATA[End node]]></Data>
+            <Data Name="node_5#label"><![CDATA[fees with VAT]]></Data>
             <Data Name="node_4#name"><![CDATA[Rule task 1]]></Data>
             <Data Name="node_3#name"><![CDATA[Get Eligibility]]></Data>
         </ResourceSet>

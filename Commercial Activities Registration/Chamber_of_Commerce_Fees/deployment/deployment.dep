@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:chamber_Of_Commerce_Fees" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.chamber_of_commerce_fees" managingXom="true">
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.sdaia.commercial_activities_registration:chamber_Of_Commerce_Fees" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.chamber_of_commerce_fees" managingXom="true">
   <name>Chamber_of_Commerce_Fees</name>
   <uuid>6fabcd96-77e7-4cad-913a-5d238785ebb4</uuid>
   <locales>en_US</locales>

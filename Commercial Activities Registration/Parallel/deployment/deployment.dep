@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:parallel" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.parallel" managingXom="true">
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.sdaia.commercial_activities_registration:parallel" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.parallel" managingXom="true">
   <name>Parallel</name>
   <uuid>da3d1b2b-2ed0-490b-89a1-0ef65d2c87d5</uuid>
   <locales>en_US</locales>

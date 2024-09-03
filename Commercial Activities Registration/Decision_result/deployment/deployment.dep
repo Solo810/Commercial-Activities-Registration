@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:decision_Result" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result" managingXom="true">
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.sdaia.commercial_activities_registration:decision_Result" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result" managingXom="true">
   <name>Decision_result</name>
   <uuid>85ef0cb3-f9bd-46e8-9e32-6a9c902bcee2</uuid>
   <locales>en_US</locales>

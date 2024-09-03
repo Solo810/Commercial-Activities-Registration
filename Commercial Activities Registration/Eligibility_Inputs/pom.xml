@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+        <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
         <artifactId>commercialActivitiesRegistration</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+    <groupId>cp4admin.sdaia.commercial_activities_registration</groupId>
     <artifactId>eligibility_Inputs</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
