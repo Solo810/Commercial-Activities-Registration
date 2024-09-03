@@ -1,0 +1,19 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input#concept.label = Eligibility_Input
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.Eligibility_Input(boolean,double,double)#phrase.navigation = a new {Eligibility_Input} where {0, pro} {1, shares} {2, years}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.action[0] = {this} gets pro only if {pro}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.action[1] = make it {pro} that {this} is pro
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.action[1].deprecated = true
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.navigation = {this} is pro
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.negative_predicate = {this} is not pro
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.negative_predicate_setter = {this} does not get pro
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.pro#phrase.positive_predicate_setter = {this} gets pro
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.shares#phrase.action = set the shares of {this} to {shares}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.shares#phrase.addition_setter = add {shares} to the shares of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.shares#phrase.navigation = {shares} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.shares#phrase.subtraction_setter = subtract {shares} from the shares of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.years#phrase.action = set the years of {this} to {years}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.years#phrase.addition_setter = add {years} to the years of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.years#phrase.navigation = {years} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs.Eligibility_Input.years#phrase.subtraction_setter = subtract {years} from the years of {this}

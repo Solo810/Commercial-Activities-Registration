@@ -1,0 +1,30 @@
+
+package ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.eligibility_inputs;
+
+
+class Eligibility_Input
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Eligibility_Input"
+        #de.generated
+{
+    boolean pro
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "pro"
+                #update;
+    double shares
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "shares"
+                #update;
+    double years
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "years"
+                #update;
+    Eligibility_Input(boolean pro, double shares, double years)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Eligibility_Input()
+                #dataio.default;
+}
+
