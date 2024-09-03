@@ -26,7 +26,16 @@
                 </RuleList>
             </RuleTask>
             <FunctionTask Identifier="task_5">
-                <Invocation/>
+                <Invocation FunctionIdentifier="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.operation_license_fees.Operation_License_Fees">
+                    <InputBindings>
+                        <Binding Language="bal" Name="ISIC_Number"><![CDATA[ the ISICnumbrer of ops_license_inputs ]]></Binding>
+                        <Binding Language="bal" Name="numberOfRooms"><![CDATA[ the NumberOfRooms of ops_license_inputs ]]></Binding>
+                        <Binding Language="bal" Name="numberOfYears"><![CDATA[ the NumberOfYears of ops_license_inputs ]]></Binding>
+                    </InputBindings>
+                    <OutputBindings>
+                        <Binding Language="bal" Name="amountVAT"><![CDATA[ 'operation license fees' ]]></Binding>
+                    </OutputBindings>
+                </Invocation>
             </FunctionTask>
         </TaskList>
         <NodeList>
@@ -37,9 +46,15 @@
             <TaskNode Identifier="node_5" Task="task_5"/>
         </NodeList>
         <TransitionList>
-            <Transition Identifier="transition_0" Source="node_0" Target="node_3"/>
             <Transition Identifier="transition_2" Source="node_4" Target="node_2"/>
             <Transition Identifier="transition_3" Source="node_3" Target="node_4"/>
+            <Transition Identifier="transition_4" Source="node_0" Target="node_5">
+                <Conditions Language="bal"><![CDATA[1=1]]></Conditions>
+            </Transition>
+            <Transition Identifier="transition_5" Source="node_5" Target="node_4"/>
+            <Transition Identifier="transition_0" Source="node_0" Target="node_3">
+                <Conditions Language="bal"><![CDATA[1=1]]></Conditions>
+            </Transition>
         </TransitionList>
     </Body>
     <Resources>
