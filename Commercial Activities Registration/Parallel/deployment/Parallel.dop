@@ -2,6 +2,12 @@
 <com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="Parallel" usingRuleflow="true" ruleflowName="Get fees" targetRuleProjectName="Parallel">
   <name>Parallel</name>
   <uuid>c6a698da-e421-4380-82ad-8bfd89474ece</uuid>
+  <referencedVariables variableName="inputs" variableSetName="New variable set">
+    <variableSet href="../rules/New%20variable%20set.var#b1b29ca7-3fd2-4a7d-abd3-ccd8dbd8ac25"/>
+  </referencedVariables>
+  <referencedVariables variableName="finalFees" variableSetName="New variable set" direction="OUT">
+    <variableSet href="../rules/New%20variable%20set.var#b1b29ca7-3fd2-4a7d-abd3-ccd8dbd8ac25"/>
+  </referencedVariables>
   <ruleflow href="../rules/Get%20fees.rfl#07e20610-d7b5-4cbf-84e6-550bb189aa7b"/>
   <targetRuleProject href="../../Parallel#2c9687a4-7021-453f-9f42-e2acf8069017"/>
 </com.ibm.rules.studio.model.decisionservice:Operation>

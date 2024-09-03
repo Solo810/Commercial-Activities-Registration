@@ -68,6 +68,7 @@
         <module>Amount_VAT</module>
         <module>Chamber_of_Commerce_Fees</module>
         <module>Commercial_Reg_Fees</module>
+        <module>Commercial_Reg_Fees_Inputs</module>
         <module>Company_Grade</module>
         <module>Countries</module>
         <module>Decision_result</module>

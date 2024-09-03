@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-    <artifactId>parallel</artifactId>
+    <artifactId>commercial_Reg_Fees_Inputs</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,10 +26,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Parallel</name>
+                            <name>Commercial_Reg_Fees_Inputs</name>
                         </deployment>
                     </deployments>
-                <packageName>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.parallel</packageName>
+                <packageName>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs</packageName>
                 </configuration>
             </plugin>
         </plugins>
@@ -38,27 +38,12 @@
 <dependencies>
         <dependency>
             <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>amount_VAT</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>commercial_Reg_Fees</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>operation_License_Fees</artifactId>
+            <artifactId>company_Grade</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
             <artifactId>decision_Result</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>commercial_Reg_Fees_Inputs</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>

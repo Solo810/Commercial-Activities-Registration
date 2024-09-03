@@ -1,0 +1,20 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input#concept.label = commercial_reg_Fees_Input
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.Commercial_reg_Fees_Input(ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type,double,boolean,java.lang.String)#phrase.navigation = a new {commercial_reg_Fees_Input} where {0, Company_type} {1, NumberOfYears} {2, professional} {3, sharePercentage}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.company_type#phrase.action = set the Company_type of {this} to {Company_type}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.company_type#phrase.clearer = clear the Company_type of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.company_type#phrase.navigation = {Company_type} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.numberOfYears#phrase.action = set the NumberOfYears of {this} to {NumberOfYears}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.numberOfYears#phrase.addition_setter = add {NumberOfYears} to the NumberOfYears of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.numberOfYears#phrase.navigation = {NumberOfYears} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.numberOfYears#phrase.subtraction_setter = subtract {NumberOfYears} from the NumberOfYears of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.action[0] = {this} gets professional only if {professional}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.action[1] = make it {professional} that {this} is professional
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.action[1].deprecated = true
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.navigation = {this} is professional
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.negative_predicate = {this} is not professional
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.negative_predicate_setter = {this} does not get professional
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.professional#phrase.positive_predicate_setter = {this} gets professional
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.sharePercentage#phrase.action = set the sharePercentage of {this} to {sharePercentage}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.commercial_reg_fees_inputs.Commercial_reg_Fees_Input.sharePercentage#phrase.navigation = {sharePercentage} of {this}
