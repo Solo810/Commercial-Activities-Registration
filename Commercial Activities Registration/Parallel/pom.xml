@@ -62,6 +62,11 @@
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
+            <artifactId>eligibility_Inputs</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>com.ibm.decision</groupId>
             <artifactId>engine-compact-runtime</artifactId>
         </dependency>

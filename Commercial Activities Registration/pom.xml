@@ -68,10 +68,10 @@
         <module>Amount_VAT</module>
         <module>Chamber_of_Commerce_Fees</module>
         <module>Commercial_Reg_Fees</module>
-        <module>Commercial_Reg_Fees_Inputs</module>
         <module>Company_Grade</module>
         <module>Countries</module>
         <module>Decision_result</module>
+        <module>Eligibility_Inputs</module>
         <module>Invest_License_Fees</module>
         <module>Invest_License_Renewal</module>
         <module>Main_Service_Eligibility</module>
