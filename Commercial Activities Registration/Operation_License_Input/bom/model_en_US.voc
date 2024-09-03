@@ -5,8 +5,12 @@ cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operat
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.ISICnumbrer#phrase.addition_setter = add {ISICnumbrer} to the ISICnumbrer of {this}
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.ISICnumbrer#phrase.navigation = {ISICnumbrer} of {this}
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.ISICnumbrer#phrase.subtraction_setter = subtract {ISICnumbrer} from the ISICnumbrer of {this}
-cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.Operation_License_Input(double,double)#phrase.navigation = a new {Operation_License_Input} where {0, ISICnumbrer} {1, NumberOfRooms}
+cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.Operation_License_Input(double,double,double)#phrase.navigation = a new {Operation_License_Input} where {0, ISICnumbrer} {1, NumberOfRooms} {2, NumberOfYears}
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfRooms#phrase.action = set the NumberOfRooms of {this} to {NumberOfRooms}
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfRooms#phrase.addition_setter = add {NumberOfRooms} to the NumberOfRooms of {this}
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfRooms#phrase.navigation = {NumberOfRooms} of {this}
 cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfRooms#phrase.subtraction_setter = subtract {NumberOfRooms} from the NumberOfRooms of {this}
+cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfYears#phrase.action = set the NumberOfYears of {this} to {NumberOfYears}
+cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfYears#phrase.addition_setter = add {NumberOfYears} to the NumberOfYears of {this}
+cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfYears#phrase.navigation = {NumberOfYears} of {this}
+cp4admin.sdaia.commercial_activities_registration.operation_license_input.Operation_License_Input.numberOfYears#phrase.subtraction_setter = subtract {NumberOfYears} from the NumberOfYears of {this}

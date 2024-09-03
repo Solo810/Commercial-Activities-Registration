@@ -15,7 +15,11 @@ class Operation_License_Input
                 property ads.attributeId "2"
                 property com.fasterxml.jackson.annotation.JsonProperty "NumberOfRooms"
                 #update;
-    Operation_License_Input(double ISICnumbrer, double numberOfRooms)
+    double numberOfYears
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "NumberOfYears"
+                #update;
+    Operation_License_Input(double ISICnumbrer, double numberOfRooms, double numberOfYears)
                 #autoExpand
                 #beanConstructor
                 property groups "BALA"
