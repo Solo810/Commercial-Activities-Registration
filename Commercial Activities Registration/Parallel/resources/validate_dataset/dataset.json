@@ -1,1 +1,1 @@
-{"operationId":"c6a698da-e421-4380-82ad-8bfd89474ece","body":{"inputs":{"Company_type":"شركةمساهمةمبسطة","NumberOfYears":1,"professional":false,"sharePercentage":"70"}}}
+{"operationId":"c6a698da-e421-4380-82ad-8bfd89474ece","body":{"eligibility_Inputs":{"pro":false,"shares":70,"years":1}}}

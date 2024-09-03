@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Ouput_Mapping</name>
+  <uuid>34153a78-a158-43c8-bebd-c2b46b6fcdbe</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[ print finalFees ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
