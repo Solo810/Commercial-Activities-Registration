@@ -3,5 +3,5 @@
   <name>Ouput_Mapping</name>
   <uuid>34153a78-a158-43c8-bebd-c2b46b6fcdbe</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[print the amount of finalFees + "ok";]]></definition>
+  <definition><![CDATA[print the msg of finalFees + "ok";]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

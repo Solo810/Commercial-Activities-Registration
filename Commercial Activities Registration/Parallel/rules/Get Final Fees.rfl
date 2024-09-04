@@ -44,29 +44,37 @@
             <TaskNode Identifier="node_3" Task="task_3"/>
             <TaskNode Identifier="node_4" Task="task_4"/>
             <TaskNode Identifier="node_5" Task="task_5"/>
+            <JoinNode Identifier="node_6"/>
+            <ForkNode Identifier="node_7"/>
         </NodeList>
         <TransitionList>
             <Transition Identifier="transition_2" Source="node_4" Target="node_2"/>
-            <Transition Identifier="transition_3" Source="node_3" Target="node_4"/>
-            <Transition Identifier="transition_4" Source="node_0" Target="node_5">
+            <Transition Identifier="transition_3" Source="node_5" Target="node_6">
                 <Conditions Language="bal"><![CDATA[1=1]]></Conditions>
             </Transition>
-            <Transition Identifier="transition_5" Source="node_5" Target="node_4"/>
-            <Transition Identifier="transition_0" Source="node_0" Target="node_3">
+            <Transition Identifier="transition_5" Source="node_3" Target="node_6">
                 <Conditions Language="bal"><![CDATA[1=1]]></Conditions>
             </Transition>
+            <Transition Identifier="transition_6" Source="node_6" Target="node_4"/>
+            <Transition Identifier="transition_4" Source="node_0" Target="node_7"/>
+            <Transition Identifier="transition_7" Source="node_7" Target="node_3"/>
+            <Transition Identifier="transition_8" Source="node_7" Target="node_5"/>
         </TransitionList>
     </Body>
     <Resources>
         <ResourceSet Locale="en_US">
+            <Data Name="node_6#name"><![CDATA[Join node 1]]></Data>
             <Data Name="node_3#label"><![CDATA[Get Eligibility]]></Data>
             <Data Name="node_0#name"><![CDATA[Start node]]></Data>
             <Data Name="node_4#label"><![CDATA[Rule task 1]]></Data>
+            <Data Name="node_7#label"><![CDATA[Fork node 1]]></Data>
             <Data Name="node_5#name"><![CDATA[fees with VAT]]></Data>
             <Data Name="node_2#name"><![CDATA[End node]]></Data>
             <Data Name="node_5#label"><![CDATA[fees with VAT]]></Data>
             <Data Name="node_4#name"><![CDATA[Rule task 1]]></Data>
+            <Data Name="node_6#label"><![CDATA[Join node 1]]></Data>
             <Data Name="node_3#name"><![CDATA[Get Eligibility]]></Data>
+            <Data Name="node_7#name"><![CDATA[Fork node 1]]></Data>
         </ResourceSet>
     </Resources>
 </Ruleflow>
